@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: lightgrey;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #1e90ff;
+  margin-bottom: 0.25em;
+}
+a {
+  color: #045af8;
+}
+h2 {
+  color: #1e90ff;
+}
+.contacts {
+  margin-bottom: 2em;
+}
+.contact {
+  display: flex;
+}
+.contact__type {
+  min-width: 90px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+.cv {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px
+}
+
+.card {
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
